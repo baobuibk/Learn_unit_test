@@ -128,6 +128,19 @@ EMBEDDED_TEST/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EMBEDDED_TEST.dir\build.make CMakeFiles/EMBEDDED_TEST.dir/build
 .PHONY : EMBEDDED_TEST/fast
 
+#=============================================================================
+# Target rules for targets named cppcheck
+
+# Build rule for target.
+cppcheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cppcheck
+.PHONY : cppcheck
+
+# fast build rule for target.
+cppcheck/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppcheck.dir\build.make CMakeFiles/cppcheck.dir/build
+.PHONY : cppcheck/fast
+
 D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Core/Src/main.obj: D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Core/Src/main.c.obj
 .PHONY : D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Core/Src/main.obj
 
@@ -624,6 +637,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... cppcheck
 	@echo ... EMBEDDED_TEST
 	@echo ... D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Core/Src/main.obj
 	@echo ... D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Core/Src/main.i

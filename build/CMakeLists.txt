@@ -116,3 +116,33 @@ set (CMAKE_C_FLAGS "${MCPU} -std=gnu11 ${MFPU} ${MFLOAT_ABI} ${RUNTIME_LIBRARY} 
 set (CMAKE_EXE_LINKER_FLAGS "-T${LINKER_SCRIPT} ${RUNTIME_LIBRARY_SYSCALLS} -Wl,-Map=test.map -Wl,--gc-sections -static -Wl,--start-group -lc -lm -Wl,--end-group")
 set (CMAKE_ASM_FLAGS "${CMAKE_C_FLAGS} -x assembler-with-cpp")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DSTM32F401xE")
+
+
+# Integrate cppcheck for static analysis
+find_program(CPPCHECK cppcheck)
+if(CPPCHECK)
+    message(STATUS "Found cppcheck: ${CPPCHECK}")
+set(CPPCHECK_OPTIONS 
+    --enable=warning,style,performance,portability
+    --suppress=missingIncludeSystem
+    --suppress=missingInclude
+    --suppress=*:*.h
+    --suppress=*:*.hpp
+    --inline-suppr
+    --quiet
+    -j 4
+)
+    set(CPPCHECK_FILES 
+        ${PROJECT_SOURCES_CUBE_GENERATED}
+        ${PROJECT_SOURCES_EXTERNAL}
+    )
+    list(FILTER CPPCHECK_FILES EXCLUDE REGEX "\\.s$")
+    add_custom_target(
+        cppcheck
+        COMMAND ${CPPCHECK} ${CPPCHECK_OPTIONS}  ${CPPCHECK_FILES}
+       WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+        COMMENT "Running cppcheck static analysis..."
+    )
+else()
+    message(WARNING "cppcheck not found. Static analysis target will not be available.")
+endif()
