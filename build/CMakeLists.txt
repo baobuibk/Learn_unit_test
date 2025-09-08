@@ -46,8 +46,9 @@ set (RUNTIME_LIBRARY_SYSCALLS "--specs=nosys.specs")
 
 
 
-set (PROJECT_SOURCES
-	# LIST SOURCE FILES HERE
+set (PROJECT_SOURCES_CUBE_GENERATED
+	# LIST CUBE GENERATED SOURCE FILES HERE
+
 	../Cube_Project/Core/Startup/startup_stm32f401vehx.s
 	../Cube_Project/Core/Src/main.c
 	../Cube_Project/Core/Src/syscalls.c
@@ -71,6 +72,10 @@ set (PROJECT_SOURCES
 	../Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c 
 
 	)
+set (PROJECT_SOURCES_EXTERNAL
+	# LIST EXTERNAL SOURCE FILES HERE
+	../External/printf/printf.c
+	)
 
 set (PROJECT_DEFINES
 	# LIST COMPILER DEFINITIONS HERE
@@ -84,6 +89,7 @@ set (PROJECT_INCLUDES
 	../Cube_Project/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
 	../Cube_Project/Drivers/CMSIS/Device/ST/STM32F4xx/Include
 	../Cube_Project/Drivers/CMSIS/Include
+	../External/printf
     )
 
 ############ MODIFY ACCORDING TO REQUIREMENTS) ########################
@@ -95,7 +101,7 @@ project(${PROJECT_NAME})
 enable_language(ASM)
 
 if (${PROJECT_TYPE} MATCHES ${PROJECT_TYPE_EXECUTABLE})
-  add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
+  add_executable(${PROJECT_NAME} ${PROJECT_SOURCES_CUBE_GENERATED} ${PROJECT_SOURCES_EXTERNAL})
   add_custom_command(TARGET ${CMAKE_PROJECT_NAME} POST_BUILD COMMAND ${CMAKE_SIZE} $<TARGET_FILE:${CMAKE_PROJECT_NAME}>)
 elseif (${PROJECT_TYPE} MATCHES ${PROJECT_TYPE_STATIC_LIBRARY})
   add_library(${PROJECT_NAME} ${PROJECT_SOURCES})

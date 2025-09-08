@@ -5,13 +5,13 @@
 # compile C with C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe
 ASM_DEFINES = 
 
-ASM_INCLUDES = -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Core\Inc -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\CMSIS\Include
+ASM_INCLUDES = -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Core\Inc -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\CMSIS\Include -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\External\printf
 
 ASM_FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -x assembler-with-cpp -g
 
 C_DEFINES = 
 
-C_INCLUDES = -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Core\Inc -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\CMSIS\Include
+C_INCLUDES = -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Core\Inc -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\Cube_Project\Drivers\CMSIS\Include -ID:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\..\External\printf
 
 C_FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -DSTM32F401xE -g
 

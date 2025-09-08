@@ -38,6 +38,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj.d"
   "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
   "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj.d"
+  "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj"
+  "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj.d"
   "EMBEDDED_TEST.elf"
   "EMBEDDED_TEST.elf.manifest"
   "EMBEDDED_TEST.pdb"

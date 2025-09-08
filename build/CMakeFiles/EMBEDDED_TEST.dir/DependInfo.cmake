@@ -19,6 +19,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Cube_Project/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Cube_Project/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Cube_Project/Drivers/CMSIS/Include"
+  "../External/printf"
   )
 
 # The set of dependency files which are needed:
@@ -42,6 +43,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" "gcc" "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj.d"
   "D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" "gcc" "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj.d"
   "D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj.d"
+  "D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c" "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj" "gcc" "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

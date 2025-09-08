@@ -347,6 +347,20 @@ CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
 	C:\PROGRA~2\ARMGNU~1\142BCE~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECT\BOOK_EXAMPLE\Embedded_Test\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\EMBEDDED_TEST.dir\D_\PROJECT\BOOK_EXAMPLE\Embedded_Test\Cube_Project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
+CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj: CMakeFiles/EMBEDDED_TEST.dir/flags.make
+CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj: D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c
+CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj: CMakeFiles/EMBEDDED_TEST.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj"
+	C:\PROGRA~2\ARMGNU~1\142BCE~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj -MF CMakeFiles\EMBEDDED_TEST.dir\D_\PROJECT\BOOK_EXAMPLE\Embedded_Test\External\printf\printf.c.obj.d -o CMakeFiles\EMBEDDED_TEST.dir\D_\PROJECT\BOOK_EXAMPLE\Embedded_Test\External\printf\printf.c.obj -c D:\PROJECT\BOOK_EXAMPLE\Embedded_Test\External\printf\printf.c
+
+CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.i"
+	C:\PROGRA~2\ARMGNU~1\142BCE~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJECT\BOOK_EXAMPLE\Embedded_Test\External\printf\printf.c > CMakeFiles\EMBEDDED_TEST.dir\D_\PROJECT\BOOK_EXAMPLE\Embedded_Test\External\printf\printf.c.i
+
+CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.s"
+	C:\PROGRA~2\ARMGNU~1\142BCE~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECT\BOOK_EXAMPLE\Embedded_Test\External\printf\printf.c -o CMakeFiles\EMBEDDED_TEST.dir\D_\PROJECT\BOOK_EXAMPLE\Embedded_Test\External\printf\printf.c.s
+
 # Object files for target EMBEDDED_TEST
 EMBEDDED_TEST_OBJECTS = \
 "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Core/Startup/startup_stm32f401vehx.s.obj" \
@@ -368,7 +382,8 @@ EMBEDDED_TEST_OBJECTS = \
 "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" \
 "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
-"CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+"CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj"
 
 # External object files for target EMBEDDED_TEST
 EMBEDDED_TEST_EXTERNAL_OBJECTS =
@@ -393,9 +408,10 @@ EMBEDDED_TEST.elf: CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded
 EMBEDDED_TEST.elf: CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 EMBEDDED_TEST.elf: CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 EMBEDDED_TEST.elf: CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+EMBEDDED_TEST.elf: CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj
 EMBEDDED_TEST.elf: CMakeFiles/EMBEDDED_TEST.dir/build.make
 EMBEDDED_TEST.elf: CMakeFiles/EMBEDDED_TEST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable EMBEDDED_TEST.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\PROJECT\BOOK_EXAMPLE\Embedded_Test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable EMBEDDED_TEST.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EMBEDDED_TEST.dir\link.txt --verbose=$(VERBOSE)
 	arm-none-eabi-size D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/build/EMBEDDED_TEST.elf
 

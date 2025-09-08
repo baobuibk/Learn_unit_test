@@ -592,6 +592,30 @@ D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EMBEDDED_TEST.dir\build.make CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
+D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.obj: D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj
+.PHONY : D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.obj
+
+# target to build an object file
+D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EMBEDDED_TEST.dir\build.make CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj
+.PHONY : D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.obj
+
+D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.i: D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.i
+.PHONY : D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.i
+
+# target to preprocess a source file
+D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EMBEDDED_TEST.dir\build.make CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.i
+.PHONY : D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.i
+
+D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.s: D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.s
+.PHONY : D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.s
+
+# target to generate assembly for a file
+D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EMBEDDED_TEST.dir\build.make CMakeFiles/EMBEDDED_TEST.dir/D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.s
+.PHONY : D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -659,6 +683,9 @@ help:
 	@echo ... D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj
 	@echo ... D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i
 	@echo ... D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s
+	@echo ... D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.obj
+	@echo ... D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.i
+	@echo ... D_/PROJECT/BOOK_EXAMPLE/Embedded_Test/External/printf/printf.s
 .PHONY : help
 
 
