@@ -1,0 +1,8 @@
+STM32_Cmake\:Debug/build=Debug
+STM32_Cmake\:Debug/cmake_build_type=Debug
+STM32_Cmake\:Debug/cmake_export_compile_commands=
+STM32_Cmake\:Debug/cmake_toolchain_file=cubeide-gcc.cmake
+STM32_Cmake\:Debug/generator=Unix Makefiles
+STM32_Cmake\:Debug/misc_command=
+STM32_Cmake\:Debug/src=.
+eclipse.preferences.version=1

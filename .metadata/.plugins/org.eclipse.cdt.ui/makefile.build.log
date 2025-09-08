@@ -1,0 +1,9 @@
+20:46:02 **** Clean-only build of configuration Debug for project makefile ****
+make -j12 clean 
+rm -rf ./Startup/startup_stm32f401vehx.d ./Startup/startup_stm32f401vehx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf default.size.stdout makefile.elf makefile.list makefile.map
+ 
+
+20:46:03 Build Finished. 0 errors, 0 warnings. (took 307ms)
+

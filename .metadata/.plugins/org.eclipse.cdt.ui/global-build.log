@@ -1,0 +1,10 @@
+20:50:46 **** Build of configuration Debug for project STM32_Cmake ****
+cmake --build Debug 
+[ 20%] Building ASM object CMakeFiles/STM32_Cmake.dir/Startup/startup_stm32f401vehx.s.obj
+[ 40%] Building C object CMakeFiles/STM32_Cmake.dir/Sources/main.c.obj
+[ 60%] Building C object CMakeFiles/STM32_Cmake.dir/Sources/syscalls.c.obj
+[ 80%] Building C object CMakeFiles/STM32_Cmake.dir/Sources/sysmem.c.obj
+[100%] Linking C executable STM32_Cmake.elf
+   text	   data	    bss	    dec	    hex	filename
+    664	      0	   1568	   2232	    8b8	D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/STM32_Cmake/Debug/STM32_Cmake.elf
+[100%] Built target STM32_Cmake

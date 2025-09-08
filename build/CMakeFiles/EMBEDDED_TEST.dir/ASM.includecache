@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/Cube_Project/Core/Startup/startup_stm32f401vehx.s
+

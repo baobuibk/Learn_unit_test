@@ -1,0 +1,3 @@
+D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/build/CMakeFiles/EMBEDDED_TEST.dir
+D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/build/CMakeFiles/edit_cache.dir
+D:/PROJECT/BOOK_EXAMPLE/Embedded_Test/build/CMakeFiles/rebuild_cache.dir
